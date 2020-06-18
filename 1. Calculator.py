@@ -24,7 +24,6 @@ def calc():
             previous = eval(eqn)
         else:
             previous = eval(str(previous)+eqn)
-        print(previous)
-
+        
 while run:
     calc()
