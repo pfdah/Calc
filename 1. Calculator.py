@@ -20,11 +20,11 @@ def calc():
     else:
         eqn = re.sub('[a-zA-Z;,:"\']','',eqn)
        
-        if previous == 0:
-            previous = eval(eqn)
-        else:
-            previous = eval(str(previous)+eqn)
-        print(previous)
+    if previous == 0:
+        previous = eval(eqn)
+    else:
+        previous = eval(str(previous)+eqn)
+       
 
 while run:
     calc()
