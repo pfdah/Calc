@@ -1,1 +1,3 @@
 Calculator with eval function.
+The input must be a completelt numeric equation like 9+8+7.
+If you enter word it throws an error which I will later fix.

@@ -19,11 +19,17 @@ def calc():
         run = False
     else:
         eqn = re.sub('[a-zA-Z;,:"\']','',eqn)
-       
         if previous == 0:
             previous = eval(eqn)
         else:
             previous = eval(str(previous)+eqn)
+<<<<<<< HEAD
         
+=======
+      
+    return
+       
+
+>>>>>>> f582d8176ed762ce40ae41a998548a7a0988d549
 while run:
     calc()
